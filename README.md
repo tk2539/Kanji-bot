@@ -1,5 +1,23 @@
 # Kanji-bot
 
+## 概要
+
+これはビッグデータを利用した漢字のDiscordのbotです
+
+## 使い方
+
+main.pyにbotを追加したいサーバーのIDとbotのトークンを入れて実行して[Discordのbot管理](https://discord.com/developers/applications)でアプリを作りサーバーに追加すると実行している間のみbotが使えます
+
+## コマンド一覧
+
+- `/unicode` コマンド => 漢字を一文字入れるとUnicodeで返信
+- `/radical` コマンド => 漢字を一文字入れると部首で返信
+- `/stroke` コマンド => 漢字を一文字入れると画数で返信
+- `/info` コマンド => 漢字を一文字入れると上記の三つ全てで返信
+- `/by_unicode` コマンド => Unicodeを入れると該当する漢字を返信
+- `by_radical` コマンド => 部首を入れると該当する全ての漢字で返信
+- `/by_stroke コマンド` => 画数を入れると該当する全ての漢字で返信
+
 ## 出典
 
 このデータは KanjiVG プロジェクトの XML ファイルをもとに、
